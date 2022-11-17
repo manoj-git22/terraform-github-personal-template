@@ -3,7 +3,7 @@ variable "gh_token" {
 }
 
 variable "gh_repos" {
-  description = "List of repos in GitHub Organization"
+  description = "List of repos in your GitHub"
   type        = "list"
   default     = []
 }
